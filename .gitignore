@@ -1,0 +1,6 @@
+.c9/
+db.sqlite3
+/*/__pycache__
+/*/migrations
+manage.py
+/*/__init__.py
