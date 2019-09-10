@@ -56,7 +56,7 @@ def registration(request):
     else:
         registration_form = UserRegistrationForm()
 
-    return render(request, "registration.html", {"registration_form": registration_form})
+    return render(request, "register.html", {"registration_form": registration_form})
 
 def user_profile(request):
     """The user's profile page"""

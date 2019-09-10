@@ -1,10 +1,16 @@
 {% extends 'base.html' %}
 
+{% load bootstrap_tags %}
+
 {% block content %}
+
+<div class="container">
   <h2>Sign up</h2>
   <form method="post">
     {% csrf_token %}
-    {{ form }}
+    {{ registration_form.as_p }}
     <button type="submit">Sign up</button>
   </form>
+</div>
+  
 {% endblock %}
